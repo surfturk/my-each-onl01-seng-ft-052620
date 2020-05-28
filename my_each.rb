@@ -3,3 +3,7 @@ def my_each # put argument(s) here
   puts i
 end
 end
+
+my_each(collection) do |i|
+  puts i
+end
