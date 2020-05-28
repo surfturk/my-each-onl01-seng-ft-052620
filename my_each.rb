@@ -4,6 +4,7 @@ def my_each(array)
     yield array[counter]
     counter +=
    end
+   array
   end
 
 ##my_each(collection) do |i|
